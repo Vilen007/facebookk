@@ -4,3 +4,13 @@
 .fs-7{
 	font-size:  .8rem
 }
+.bg-grey{
+	background-color: #f0f2f5;
+}
+@media (min-width:62em){
+	footer{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+}
