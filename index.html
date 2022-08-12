@@ -9,22 +9,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-      .body{
-        background-color: #f0f2f5;
-      }
-    </style>
+
   </head>
-  <body>
+  <body class="bg-grey">
     <!-- Login -->
     <div class="container d-flex flex-column flex-lg-row justify-content-evenly pt-5 mt-5">
      <!-- Heading -->
       <div class="text-center text-lg-start mt-lg-5 pt-lg-5">
-        <h1 class="text-primary fw-bold">Facebook</h1>
-        <p class="w-75 mx-auto mx-lg-0 fs-4">Facebook helps you connect and share with the people in your life.</p>
+        <h1 class="text-primary fw-bold fs-0">facebook</h1>
+        <p class="w-75 mx-auto mx-lg-0 fs-3">Facebook helps you connect and share with the people in your life.</p>
       </div>
       <!-- Form -->
-      <div style="max-width: 28-rem; width: 100%;">
+      <div style="max-width: 20-rem; width: 100%;">
         <div class="bg-white shadow rounded p-3 input-group-lg">
           <input type="email" class="form-control my-3" placeholder="Email Address or Phone Number">
           <input type="password" class="form-control my-3" placeholder="Password">
@@ -173,10 +169,10 @@
                       </span>
                       <div class="col">
                         <div class="border rounded p-2">
-                          <label class="form-check-label" for="flexRadioDefault2">
+                          <label class="form-check-label" for="flexRadioDefault1">
                             Male
                           </label>
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                         </div>
                       </div>
                       <div class="col">
@@ -184,34 +180,96 @@
                           <label class="form-check-label" for="flexRadioDefault2">
                             Female
                           </label>
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                         </div>
                       </div>
                       <div class="col">
                         <div class="border rounded p-2">
-                          <label class="form-check-label" for="flexRadioDefault2">
+                          <label class="form-check-label" for="flexRadioDefault3">
                             Custom
                           </label>
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
                         </div>
                       </div>
-
-                  </div>
+                      <div class="d-none" id="genderselect">
+                        <select class="form-select  my-3">
+                          <option value="1">Select your pronoun</option>
+                          <option value="2">She: "Wish her a happy birthday!"</option>
+                          <option value="3">He: "Wish him a happy birthday!"</option>
+                          <option value="4">They: "Wish them a happy birthday!"</option>
+                        </select>
+                        <div class="my-3">
+                          <span class="text-muted">Your pronoun is visible to everyone.</span>
+                          <input class="form-control" type="text" placeholder="Gender (optional)">
+                        </div>
+                      </div>
+                      <span class="text-muted my-3">People who use our service may have uploaded your contact information to Facebook. <span class="text-primary">Learn more</span></span></span>
+                      <span class="text-muted">By clicking Sign Up, you agree to our  <span class="text-primary">Terms, Privacy Policy</span> and <span class="text-primary"> Cookies Policy</span>. You may receive SMS notifications from us and can opt out at any time.</span>
+                    </div>
+                    <div class="text-center mt-3">
+                      <button type="button" class="btn btn-success">Sign up</button>
+                    </div>
                   </form>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+               
               </div>
             </div>
           </div>
           <!-- End -->
         </div> 
+        <div class="my-5 pb-5 text-center">
+          <p class="fw-bold"><a href="#" class="text-decoration-none text-dark">Create a page</a><span class="fw-normal"> for a celeberity, brand or business.</span></p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container bg-white p-4 text-muted">
+      <div class="d-flex flex-wrap">
+        <p class="mx-2 fs-7 mb-0">English (Us)</p>
+        <p class="mx-2 fs-7 mb-0">اردو</p>
+        <p class="mx-2 fs-7 mb-0">پښتو</p>
+        <p class="mx-2 fs-7 mb-0">العربية</p>
+        <p class="mx-2 fs-7 mb-0">ਪੰਜਾਬੀ</p>
+        <p class="mx-2 fs-7 mb-0 border px-2"><i class="fa-solid fa-plus"></i></p>
+      </div>
+<hr>
+      <div class="d-flex flex-wrap">
+        <p class="mx-2 fs-7 mb-0">Sign Up</p>
+        <p class="mx-2 fs-7 mb-0">Log in</p>
+        <p class="mx-2 fs-7 mb-0">Messenger</p>
+        <p class="mx-2 fs-7 mb-0">Facebook lite</p>
+        <p class="mx-2 fs-7 mb-0">Watch</p>
+        <p class="mx-2 fs-7 mb-0">Places</p>
+        <p class="mx-2 fs-7 mb-0">Games</p>
+        <p class="mx-2 fs-7 mb-0">Markeplace</p>
+        <p class="mx-2 fs-7 mb-0">Facebook Pay</p>
+        <p class="mx-2 fs-7 mb-0">Oculus</p>
+        <p class="mx-2 fs-7 mb-0">Instagram</p>
+        <p class="mx-2 fs-7 mb-0">Portal</p>
       </div>
 
-    </div>
+      <div class="mt-4 mx-2">
+        <p class="fs-7">Meta &copy; 2022</p>
+      </div>
+    </footer>
+    <script>
+      if(window.location.pathname === '/'){
+        const radiobtn1 = document.querySelector('#flexRadioDefault1')
+        const radiobtn2 = document.querySelector('#flexRadioDefault2')
+        const radiobtn3 = document.querySelector('#flexRadioDefault3')
+        const generalradiobtn = document.querySelector('#genderselect')
 
+        radiobtn1.addEventListener('change', () => {
+            generalradiobtn.classList.add('d-none')
+        })
+        radiobtn2.addEventListener('change', () => {
+            generalradiobtn.classList.add('d-none')
+        })
+        radiobtn3.addEventListener('change', () => {
+            generalradiobtn.classList.remove('d-none')
+        })
+    }
+    </script>
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
