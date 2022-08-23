@@ -7,10 +7,10 @@
 .bg-grey{
 	background-color: #f0f2f5;
 }
-@media (min-width: 62em){
+/* @media (min-width: 62em){
 	footer{
 		position: fixed;
 		bottom: 0;
 		width: 100%;
 	}
-}
+} */
